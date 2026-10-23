@@ -3588,6 +3588,26 @@ categories:
         For specifically transferring images, [Up1](https://github.com/Upload/Up1) is a good self-hosted option, with client-side encryption.
 
         Finally [PsiTransfer](https://github.com/psi-4ward/psitransfer) is a feature-rich, self-hosted file drop, using streams.
+    ###########################
+    ###### PDF Tools #########
+    ##########################
+    - name: PDF Tools
+      alternativeTo: ['ilovepdf', 'smallpdf', 'adobe acrobat online']
+      services:
+      - name: PrivatePDF
+        url: https://cchichi.github.io/privatepdf/
+        github: cchichi/privatepdf
+        followWith: Web
+        openSource: true
+        icon: https://cchichi.github.io/privatepdf/assets/img/favicon.svg
+        description: |
+          10 free PDF tools (merge, split, visual page organizer, rotate, compress,
+          watermark, page numbers, images-to-PDF, PDF-to-images, text extraction) that
+          run entirely in the browser. There is no backend and no upload endpoint, so
+          files never leave the device — the claim is verifiable in the network panel.
+          No sign-up, no size limits, installable as a PWA that works offline.
+          MIT-licensed, self-hostable as static files.
+
 
 
     ###########################
